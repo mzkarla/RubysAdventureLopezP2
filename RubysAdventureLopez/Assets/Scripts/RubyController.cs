@@ -47,6 +47,11 @@ public class RubyController : MonoBehaviour
             lookDirection.Normalize();
         }
 
+        if(Input.GetKeyDown(KeyCode.C))
+        {
+            Launch();
+        }
+
         animator.SetFloat("Look X", lookDirection.x);
         animator.SetFloat("Look Y", lookDirection.y);
         animator.SetFloat("Speed", move.magnitude);

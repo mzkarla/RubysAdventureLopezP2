@@ -32837,6 +32837,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3324635095964959328, guid: 60ec4ecb1d825ad42a558f1bff861e75, type: 3}
+      propertyPath: projectilePrefab
+      value: 
+      objectReference: {fileID: 6316845011889078022}
     - target: {fileID: 3324635095964959329, guid: 60ec4ecb1d825ad42a558f1bff861e75, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -33001,6 +33005,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1a7ddabf6e4a1eb4ab728162fc76b8aa, type: 3}
+--- !u!1 &6316845011889078022 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6316845011380556694, guid: 1a7ddabf6e4a1eb4ab728162fc76b8aa, type: 3}
+  m_PrefabInstance: {fileID: 6316845011889078021}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &6757733057820738062
 PrefabInstance:
   m_ObjectHideFlags: 0
